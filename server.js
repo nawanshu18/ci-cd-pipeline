@@ -53,7 +53,8 @@ app.get("/", (req, res) => {
       <div class="container">
         <h1>CI/CD Pipeline</h1>
         <p>Automated deployment using GitHub Actions and Vercel</p>
-        <div class="status">Deployment Successful</div>
+        <p>Updated automatically through CI/CD</p>
+        <div class="status">Deployment Successful - Version 2</div>
       </div>
     </body>
     </html>
